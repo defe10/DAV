@@ -1,0 +1,554 @@
+/* Estilos generales */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Barra de navegacion */
+
+.navbar a {
+  padding: 5px 25px;
+  margin: 0px;
+}
+
+.navbar li {
+  padding: 0px 15px;
+}
+
+
+/* Sección Hero */
+
+.hero {
+  background-color:#f5f5f5;
+  padding: 40px;
+  min-height: 600px;
+}
+
+.desktop { /*titulo principal para desktop*/
+  font-size: 3rem; 
+  font-weight: bold;
+  color: #353535;
+}
+
+.mobile { /*titulo principal para movil*/
+  display: none;
+}
+
+.hero p {
+  font-size: 1rem;
+  font-weight:400;
+  color: #353535;
+  max-width: 500px;
+}
+
+.redes a { /*redes de portada*/
+  font-size: 25px;
+  padding-right: 10px;
+  color: #353535;
+}
+
+.logo-dav {
+  max-height: 80px;
+}
+/*Seccion hero secundarias*/
+
+
+
+.direccion { /*encabezado de paginas secundarias*/
+  padding: 50px 100px 0px 100px;
+}
+
+.direccion h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #353535;
+  margin-bottom: 0px;
+}
+
+
+.direccion p {
+  padding: 15px 0px 50px 0px;
+  font-size: 1rem;
+  font-weight:400;
+  color: #353535;
+}
+
+.hero-conv { /*encabezado convocatoria idea*/
+  background-color: #353535;
+  padding: 0px 100px 25px 0px;
+  min-height: 200px;
+}
+
+.curso { /*encabezado convocatoria estudio*/
+  background-color: #353535;
+  padding: 0px 100px 25px 0px;
+  min-height: 200px;
+}
+
+.hero-conv h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.hero-conv p {
+  font-size: 1rem;
+  font-weight:400;
+  color: #f5f5f5;
+  max-width: 500px;
+}
+
+.foto-texto { /*div encabezado de fomento*/
+  padding: 50px 100px 0px 100px;
+}
+.foto-texto img {
+  max-width: 500px;
+  
+}
+
+.programas-cine {
+  padding: 50px;
+}
+
+/*Arcordeon secciones*/ 
+
+.accordion-inst {
+  background-color: #e8e8e8;
+}
+.accordion {
+  margin: 50px 250px 50px 250px;
+}
+
+.accordion button {
+  font-weight: 800;
+  align-items: baseline;
+  background-color: #a6b1ca;
+}
+
+
+
+/*seccion fomento convocatorias*/
+
+.convocatoria-concurso {
+  background-color: #e8e8e8;
+}
+
+.convocatoria-programa {
+  background-color: #dadada;
+}
+
+.convocatoria-subsidio {
+  background-color: #cecece;
+}
+
+.convocatoria {
+  background-color: #e8e8e8;
+}
+
+
+/*lineas de fomento*/
+
+.idea {
+  padding: 50px 0px;
+}
+
+.idea-tipo {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+
+/*cards de todas las secciones*/
+
+.card h5 {
+  font-weight: 600;
+}
+
+.card p {
+  font-size: .9rem;
+}
+
+.card li {
+  font-size: .9rem;
+}
+
+.titulo {
+  color:#e73861;
+  font-weight: 500;  
+}
+  
+
+/* Botones de servicios */
+
+.servicios {
+  margin-top: 20px;
+}
+
+.servicio {
+  margin-bottom: 15px;
+}
+
+.servicio a {
+  text-decoration: none;
+}
+
+.servicio-item { /*botones pagina principal*/
+  background-color: #a6b1ca;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.servicio-item img {
+  flex-shrink: 0;
+  filter: invert(1);
+}
+
+/*convocatorias de fomento y formacion*/
+
+.servicio-item p {
+  font-size: 1rem;
+  margin: 0;
+  color: #f5f5f5;
+  font-weight: 600;
+}
+
+.servicio2-item {
+  background-color: #bbbbbb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.servicio2-item img {
+  flex-shrink: 0;
+}
+
+.servicio2-item p {
+  font-size: 1rem;
+  color: #353535;
+  font-weight: 600;
+}
+
+.servicio2-item:hover {
+  background-color: #d4d4d4;
+  transition: background-color 0.3s ease;
+}
+
+.servicio-item:hover {
+  background-color: #d4d4d4;
+  transition: background-color 0.3s ease;
+}
+
+.insigna-idea {
+  justify-content: flex-start;
+  background-color: #ff04ff;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.insigna-estudio {
+  justify-content: flex-start;
+  background-color: #f8ff00;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+.insigna-promocion {
+  justify-content: flex-start;
+  background-color: #0afa7e;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+.insigna-cine {
+  justify-content: flex-start;
+  background-color: #00aeff;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+
+
+/* seccion ejes pagina principal*/
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-body .card-title {
+  color:#353535
+}
+
+.card-body .card-text {
+  color:#353535
+}
+
+.card-body .btn {
+  background-color: #e73861;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: small;
+  padding: 2px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.ejes-titulo {
+  background-color: #353535;
+  margin: -16px;
+  padding: 16px;
+ 
+}
+
+
+.c-fucsia {
+  background-color:#ff04ff;
+  padding: 8px 180px 0px 0px;
+  margin: -16px;
+  position: absolute;
+}
+
+.c-verde {
+  background-color: greenyellow;
+  padding: 8px 180px 0px 0px;
+  margin: -16px;
+  position: absolute;
+}
+
+.c-amarillo {
+  background-color:#f8ff00;
+  padding: 8px 180px 0px 0px;
+  margin: -16px;
+  position: absolute;
+}
+
+.c-celeste {
+  background-color:#00aeff;
+  padding: 8px 180px 0px 0px;
+  margin: -16px;
+  position: absolute;
+}
+
+
+
+
+
+/* sección footer */
+.footer {
+  background-color: #22425b;
+  padding: 3rem; 
+  margin-bottom: 0px;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 0px;
+  color: #f5f5f5;
+}
+
+.redeso i {
+  color: #f5f5f5;
+  font-size: smaler;
+}
+
+.contacto h6 {
+  margin: 0px 20px;
+  font-size: x-large;
+  font-weight: bolder;
+  color: #f5f5f5;
+}
+.contacto ul {
+  list-style-type: none;
+  margin: 20px 20px;
+  color: #f5f5f5;
+  
+}
+
+.contacto ul a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.lista i {
+  width: 30px;
+  padding-right: 10px;
+}
+
+.copy {
+  align-items: self-end;
+  text-align: center;
+}
+
+.copy p {
+  font-size: small;
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: #f5f5f5;
+}
+  
+/* Convocatorias - idea */
+
+.list-group .resal  {
+  color: #e73861;
+  font-weight: 500;
+
+}
+
+.list-group .resal1  {
+  color: #269b26;
+  font-weight: 500;
+}
+
+.list-group .negrita {
+  font-weight: 500;
+} 
+
+
+.uno {
+  text-decoration: none;
+  font-size: small;
+  color: white;
+  font-weight: 500;
+}
+
+.dos {
+  text-decoration: none;
+  font-size: small;
+  color:#e73861;
+  font-weight: 500;
+}
+
+.bases {
+  background-color: #e73861;
+  border: 1px solid #e73861;
+  padding: 5px;
+}
+
+.bases1 {
+  border: 1px solid #e73861;
+  background-color: white;
+  padding: 5px;
+}
+
+
+
+
+
+/* Ajustes de pantalla */
+
+@media screen and (max-width: 405px)  {
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222222;
+}
+
+.footer {
+  background-color: #22425b;
+  padding: 3rem 1rem; 
+  margin-bottom: 0px;
+}
+  
+}
+
+
+@media screen and (max-width: 480px) {
+  .foto-texto img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+.hero {
+  max-width: 500px;
+}
+.desktop {
+  font-size: 1.5rem;
+}
+.hero p {
+  font-size: 1rem;
+}
+.direccion h1 {
+  font-size: 2rem;
+}
+
+.foto-texto img {
+  max-width: 100px;
+}
+.hero-conv {
+  padding: 0px;
+}
+.list-group .req {
+  display: none;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .idea {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .foto-texto p{
+    margin: 20px 0px 0px 0px;
+  }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+  .desktop {
+    font-size: 2.5rem;
+  }
+  .idea {
+    padding: 50px 0px;
+  }
+  .direccion {
+    padding: 50px 0px 10px 0px;
+    margin: 10px 20px 0px 20px;
+  }
+  .foto-texto {
+    padding: 20px 0px 10px 0px;
+    margin: 0px 0px 0px 20px;
+  }
+  .accordion {
+    margin: 10px 20px 50px 20px;
+  }
+  
+  }
+
+  @media screen and (max-width: 1400px) {
+  .foto-texto img {
+    max-width: 450px;
+  }
+}
