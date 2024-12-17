@@ -95,6 +95,8 @@ section {
   min-height: 200px;
 }
 
+
+
 .hero-conv h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -117,7 +119,7 @@ section {
 }
 
 .programas-cine {
-  padding: 50px;
+  padding: 40px;
 }
 
 /*Arcordeon secciones*/ 
@@ -284,6 +286,13 @@ section {
   max-width: 700px;
 }
 
+.insigna-inst {
+  justify-content: flex-start;
+  background-color: #e73861;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
 
 
 /* seccion ejes pagina principal*/
