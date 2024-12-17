@@ -482,14 +482,25 @@ section {
 }
 
 .servicio-item { /*botones pagina principal*/
-  padding: 5px 10px;
-  margin-bottom: -5px;
+  padding: 15px 10px;
 }
 
 .servicio-item img {
   max-width: 20px;
   flex-shrink: 0;
   filter: invert(1);
+}
+
+
+.redes a { /*redes de portada*/
+  font-size: 20px;
+  padding-right: 0px 10px 0px 0px;
+  color: #e73861;
+}
+
+.logo-dav {
+  padding-left: 5px;
+  max-height: 50px;
 }
 
 
