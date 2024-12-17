@@ -60,9 +60,11 @@ section {
   padding-left: 5px;
   max-height: 80px;
 }
+
+
+
+
 /*Seccion hero secundarias*/
-
-
 
 .direccion { /*encabezado de paginas secundarias*/
   padding: 50px 100px 0px 100px;
@@ -114,12 +116,12 @@ section {
 }
 .foto-texto img {
   max-width: 500px;
-  
 }
 
 .programas-cine {
   padding: 50px;
 }
+
 
 /*Arcordeon secciones*/ 
 
