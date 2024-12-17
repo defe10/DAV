@@ -53,7 +53,7 @@ section {
 .redes a { /*redes de portada*/
   font-size: 25px;
   padding-right: 10px;
-  color: #353535;
+  color: #e73861;
 }
 
 .logo-dav {
@@ -67,7 +67,7 @@ section {
 /*Seccion hero secundarias*/
 
 .hero-inst {
-  background-color: #d4d4d4;
+  background-color: #f1f0f0;
 }
 
 .direccion { /*encabezado de paginas secundarias*/
@@ -95,12 +95,6 @@ section {
   min-height: 200px;
 }
 
-.curso { /*encabezado convocatoria estudio*/
-  background-color: #353535;
-  padding: 0px 100px 25px 0px;
-  min-height: 200px;
-}
-
 .hero-conv h1 {
   font-size: 2rem;
   font-weight: bold;
@@ -125,7 +119,6 @@ section {
 .programas-cine {
   padding: 50px;
 }
-
 
 /*Arcordeon secciones*/ 
 
@@ -513,6 +506,7 @@ section {
 .list-group .req {
   display: none;
 }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -536,19 +530,23 @@ section {
 
 
   .hero-conv .insigna-idea {
-    margin-left: -50px ;
+    margin-left: -50px;
+    max-width: 400px;
   }
 
   .hero-conv .insigna-cine {
-    margin-left: -50px ;
+    margin-left: -50px;
+    max-width: 400px;
   }
 
   .hero-conv .insigna-estudio {
-    margin-left: -50px ;
+    margin-left: -50px;
+    max-width: 400px;
   }
 
   .hero-conv .insigna-promocion {
-    margin-left: -50px ;
+    margin-left: -50px;
+    max-width: 400px;
   }
 }
 
