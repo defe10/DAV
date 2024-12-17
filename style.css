@@ -457,16 +457,7 @@ section {
 
 @media screen and (max-width: 405px)  {
 
-.desktop {
-  display: none;
-}
 
-.mobile {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #222222;
-}
 
 .footer {
   background-color: #22425b;
@@ -484,14 +475,29 @@ section {
 }
 
 @media screen and (max-width: 576px) {
+
 .hero {
-  max-width: 500px;
+  padding: 10px 10px;
+
 }
+
+.servicio-item { /*botones pagina principal*/
+  padding: 5px 10px;
+  margin-bottom: -5px;
+}
+
+.servicio-item img {
+  max-width: 20px;
+  flex-shrink: 0;
+  filter: invert(1);
+}
+
+
 .desktop {
   font-size: 1.5rem;
 }
 .hero p {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 .direccion h1 {
   font-size: 2rem;
@@ -507,6 +513,16 @@ section {
   display: none;
 }
 
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222222;
+}
 }
 
 @media screen and (max-width: 767px) {
