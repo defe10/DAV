@@ -66,6 +66,10 @@ section {
 
 /*Seccion hero secundarias*/
 
+.hero-inst {
+  background-color: #d4d4d4;
+}
+
 .direccion { /*encabezado de paginas secundarias*/
   padding: 50px 100px 0px 100px;
 }
@@ -112,7 +116,7 @@ section {
 }
 
 .foto-texto { /*div encabezado de fomento*/
-  padding: 50px 100px 0px 100px;
+  padding: 50px 100px 50px 100px;
 }
 .foto-texto img {
   max-width: 500px;
@@ -194,7 +198,6 @@ section {
   color:#e73861;
   font-weight: 500;  
 }
-  
 
 /* Botones de servicios */
 
