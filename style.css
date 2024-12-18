@@ -33,6 +33,7 @@ section {
   min-height: 600px;
 }
 
+
 .desktop { /*titulo principal para desktop*/
   font-size: 3rem; 
   font-weight: bold;
@@ -48,6 +49,10 @@ section {
   font-weight:400;
   color: #353535;
   max-width: 500px;
+}
+
+.lead {
+  display: block;
 }
 
 .redes a { /*redes de portada*/
@@ -464,100 +469,35 @@ section {
 
 /* Ajustes de pantalla */
 
-@media screen and (max-width: 405px)  {
 
-
-
-.footer {
-  background-color: #22425b;
-  padding: 3rem 1rem; 
-  margin-bottom: 0px;
-}
-  
-}
-
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1400px) {
   .foto-texto img {
-    display: none;
+    max-width: 450px;
   }
 }
 
-@media screen and (max-width: 576px) {
 
-.hero {
-  padding: 10px 10px;
-
-}
-
-.servicio-item { /*botones pagina principal*/
-  padding: 15px 10px;
-}
-
-.servicio-item img {
-  max-width: 20px;
-  flex-shrink: 0;
-  filter: invert(1);
-}
-
-
-.redes a { /*redes de portada*/
-  font-size: 20px;
-  padding-right: 0px 10px 0px 0px;
-  color: #e73861;
-}
-
-.logo-dav {
-  padding-left: 5px;
-  max-height: 50px;
-}
-
-
-.desktop {
-  font-size: 1.5rem;
-}
-.hero p {
-  font-size: .9rem;
-}
-.direccion h1 {
-  font-size: 2rem;
-}
-
-.foto-texto img {
-  max-width: 100px;
-}
-.hero-conv {
-  padding-right: 15px;
-}
-.list-group .req {
-  display: none;
-}
-
-.desktop {
-  display: none;
-}
-
-.mobile {
-  display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #222222;
-}
-
-.lead {
-  display: none;
-}
-
-
-
-
-}
-
-@media screen and (max-width: 767px) {
-  .navbar-brand {
-    display: none;
+@media screen and (max-width: 1200px) {
+  .desktop {
+    font-size: 2.5rem;
   }
-}
+  .idea {
+    padding: 50px 0px;
+  }
+  .direccion {
+    padding: 50px 0px 10px 0px;
+    margin: 10px 20px 0px 20px;
+  }
+  .foto-texto {
+    padding: 20px 0px 10px 0px;
+    margin: 0px 0px 0px 20px;
+  }
+  .accordion {
+    margin: 10px 20px 50px 20px;
+  } 
+  }
+
+
 
 @media screen and (max-width: 990px) {
   .idea {
@@ -571,7 +511,6 @@ section {
   .hero-conv {
     padding-left: 25px;
   }
-
 
   .hero-conv .insigna-idea {
     margin-left: -50px;
@@ -595,29 +534,106 @@ section {
 }
 
 
-@media screen and (max-width: 1200px) {
-  .desktop {
-    font-size: 2.5rem;
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
   }
-  .idea {
-    padding: 50px 0px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .hero {
+    padding: 15px 10px;
+  
   }
+  
+  .hero-conv {
+    padding: 15px 10px;
+  }
+  
+  .hero-inst {
+    padding: 15px 10px;
+  }
+  
   .direccion {
-    padding: 50px 0px 10px 0px;
-    margin: 10px 20px 0px 20px;
+    padding-top: 15px;
   }
-  .foto-texto {
-    padding: 20px 0px 10px 0px;
-    margin: 0px 0px 0px 20px;
+  
+  .servicio-item { /*botones pagina principal*/
+    padding: 15px 10px;
   }
-  .accordion {
-    margin: 10px 20px 50px 20px;
+  
+  .servicio-item img {
+    max-width: 20px;
+    flex-shrink: 0;
+    filter: invert(1);
+  }
+  
+  
+  .redes a { /*redes de portada*/
+    font-size: 20px;
+    padding-right: 0px 10px 0px 0px;
+    color: #e73861;
+  }
+  
+  .logo-dav {
+    padding-left: 5px;
+    max-height: 50px;
+  }
+  
+  
+  .desktop {
+    font-size: 1.5rem;
+  }
+  .hero p {
+    font-size: .9rem;
+  }
+  .direccion h1 {
+    font-size: 2rem;
+  }
+  
+  .foto-texto img {
+    max-width: 100px;
+  }
+  .hero-conv {
+    padding-right: 15px;
+  }
+  .list-group .req {
+    display: none;
+  }
+  
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222222;
+  }
+  
+  .lead {
+    display: none;
   }
   
   }
 
-  @media screen and (max-width: 1400px) {
+@media screen and (max-width: 480px) {
   .foto-texto img {
-    max-width: 450px;
+    display: none;
   }
 }
+
+
+
+@media screen and (max-width: 405px)  {
+
+  .footer {
+    background-color: #22425b;
+    padding: 3rem 1rem; 
+    margin-bottom: 0px;
+  }
+    
+  }
