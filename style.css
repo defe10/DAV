@@ -51,10 +51,6 @@ section {
   max-width: 500px;
 }
 
-.lead {
-  display: block;
-}
-
 .redes a { /*redes de portada*/
   font-size: 25px;
   padding-right: 10px;
@@ -542,47 +538,34 @@ section {
 
 
 @media screen and (max-width: 576px) {
-
   .hero {
     padding: 15px 10px;
   
   }
-  
-  .hero-conv {
-    padding: 15px 10px;
-  }
-  
-  .hero-inst {
-    padding: 15px 10px;
-  }
-  
   .direccion {
-    padding-top: 15px;
+    padding: 15px 0px 10px 0px;
+    margin: 10px 20px 0px 20px;
   }
-  
+  .direccion p {
+    padding-bottom: 10px;
+  }
   .servicio-item { /*botones pagina principal*/
     padding: 15px 10px;
   }
-  
   .servicio-item img {
     max-width: 20px;
     flex-shrink: 0;
     filter: invert(1);
   }
-  
-  
   .redes a { /*redes de portada*/
     font-size: 20px;
     padding-right: 0px 10px 0px 0px;
     color: #e73861;
   }
-  
   .logo-dav {
     padding-left: 5px;
     max-height: 50px;
   }
-  
-  
   .desktop {
     font-size: 1.5rem;
   }
@@ -592,10 +575,15 @@ section {
   .direccion h1 {
     font-size: 2rem;
   }
-  
-  .foto-texto img {
-    max-width: 100px;
+
+  .foto-texto {
+    padding-top: 0px;
   }
+  .foto-texto img {
+    display: none;
+
+  }
+  
   .hero-conv {
     padding-right: 15px;
   }
@@ -606,16 +594,11 @@ section {
   .desktop {
     display: none;
   }
-  
   .mobile {
     display: block;
     font-size: 1.5rem;
     font-weight: bold;
     color: #222222;
-  }
-  
-  .lead {
-    display: none;
   }
   
   }
