@@ -543,6 +543,14 @@ section {
   font-weight: bold;
   color: #222222;
 }
+
+.lead {
+  display: none;
+}
+
+
+
+
 }
 
 @media screen and (max-width: 767px) {
