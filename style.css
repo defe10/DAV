@@ -195,6 +195,7 @@ section {
   font-weight: 500;  
 }
 
+
 /* Botones de servicios */
 
 .servicios {
@@ -605,6 +606,10 @@ section {
 
 @media screen and (max-width: 480px) {
   .foto-texto img {
+    display: none;
+  }
+
+  .servicio-item img {
     display: none;
   }
 }
