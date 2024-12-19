@@ -2,7 +2,6 @@
 
 * {
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
 }
 
 section {
@@ -65,8 +64,6 @@ section {
   display: block;
 }
 
-
-
 /*Seccion hero secundarias*/
 
 .hero-inst {
@@ -93,7 +90,7 @@ section {
 }
 
 .hero-conv { /*encabezado convocatoria idea*/
-  background-color: #353535;
+  background-color: #2f354a;
   padding: 0px 40px 40px 0px;
   min-height: 200px;
 }
@@ -128,7 +125,8 @@ section {
 /*Arcordeon secciones*/ 
 
 .accordion-inst {
-  background-color: #e8e8e8;
+  background-color: #2f354a;
+  padding-top: 25px;
 }
 .accordion {
   margin: 50px 250px 50px 250px;
@@ -137,9 +135,12 @@ section {
 .accordion button {
   font-weight: 800;
   align-items: baseline;
-  background-color: #a6b1ca;
+  background-color: #e73861;
 }
 
+.accordion-item h2 {
+  color: white;
+}
 
 
 /*seccion fomento convocatorias*/
@@ -542,7 +543,7 @@ section {
 
 @media screen and (max-width: 576px) {
   .hero {
-    padding: 15px 10px;
+    padding: 25px 10px;
   
   }
   .direccion {
@@ -573,7 +574,7 @@ section {
     font-size: 1.5rem;
   }
   .hero p {
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .direccion h1 {
     font-size: 2rem;
@@ -599,7 +600,7 @@ section {
   }
   .mobile {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #222222;
   }
@@ -611,7 +612,7 @@ section {
     display: none;
   }
 .lead {
-  display: none;
+  display: block;
 }
 }
 
