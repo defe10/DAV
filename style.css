@@ -61,7 +61,9 @@ section {
   padding-left: 5px;
   max-height: 80px;
 }
-
+.lead {
+  display: block;
+}
 
 
 
@@ -608,10 +610,9 @@ section {
   .foto-texto img {
     display: none;
   }
-
-  .servicio-item img {
-    display: none;
-  }
+.lead {
+  display: none;
+}
 }
 
 
