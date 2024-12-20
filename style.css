@@ -4,13 +4,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 
 /* Barra de navegacion */
 
@@ -27,16 +20,22 @@ section {
 /* Sección Hero */
 
 .hero {
-  background-color:#f5f5f5;
-  padding: 40px;
-  min-height: 600px;
+  background-image: url(img/fondohero2.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Escala la imagen para cubrir todo el elemento */
+  padding: 0px 0px 0px 0px;
+  min-height: 900px;
+}
+
+.centrado {
+  margin-top: 200px
 }
 
 
 .desktop { /*titulo principal para desktop*/
   font-size: 3rem; 
   font-weight: bold;
-  color: #353535;
+  color: white;
 }
 
 .mobile { /*titulo principal para movil*/
@@ -46,35 +45,63 @@ section {
 .hero p {
   font-size: 1rem;
   font-weight:400;
-  color: #353535;
+  color: white;
   max-width: 500px;
 }
 
 .redes a { /*redes de portada*/
   font-size: 25px;
   padding-right: 10px;
-  color: #e73861;
+  color: #dbff3d;
 }
 
 .logo-dav {
-  padding-left: 5px;
+  padding-left: 25px;
+  padding-bottom: 25px;
   max-height: 80px;
+  
 }
 .lead {
   display: block;
 }
 
+
+
+
+
 /*Seccion hero secundarias*/
 
 .hero-inst {
-  background-color: #f1f0f0;
+  background-color: #2f354a;
+}
+
+.hero-convocatorias {
+  padding-top: 25px;
+  background-color: #e7e7e7;
 }
 
 .direccion { /*encabezado de paginas secundarias*/
-  padding: 50px 100px 0px 100px;
+  padding: 25px 425px 20px 425px;
 }
 
 .direccion h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.direccion p {
+ 
+  font-size: 1rem;
+  font-weight:400;
+  color: white;
+}
+
+.formacion {
+  padding: 20px 100px;
+}
+
+.formacion h1 {
   font-size: 3rem;
   font-weight: bold;
   color: #353535;
@@ -82,20 +109,11 @@ section {
 }
 
 
-.direccion p {
-  padding: 15px 0px 50px 0px;
-  font-size: 1rem;
-  font-weight:400;
-  color: #353535;
-}
-
 .hero-conv { /*encabezado convocatoria idea*/
   background-color: #2f354a;
   padding: 0px 40px 40px 0px;
   min-height: 200px;
 }
-
-
 
 .hero-conv h1 {
   font-size: 2rem;
@@ -112,7 +130,8 @@ section {
 }
 
 .foto-texto { /*div encabezado de fomento*/
-  padding: 50px 100px 50px 100px;
+  padding: 10px 100px 50px 100px;
+  color: #353535;
 }
 .foto-texto img {
   max-width: 500px;
@@ -122,20 +141,26 @@ section {
   padding: 40px;
 }
 
+.card-cash {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+
 /*Arcordeon secciones*/ 
 
 .accordion-inst {
-  background-color: #2f354a;
-  padding-top: 25px;
+  background-color: #dbdbdb;
+  padding: 25px;
 }
 .accordion {
-  margin: 50px 250px 50px 250px;
+  margin: 50px 400px 50px 400px;
 }
 
 .accordion button {
   font-weight: 800;
   align-items: baseline;
-  background-color: #e73861;
+  background-color: #a6b1ca;
 }
 
 .accordion-item h2 {
@@ -147,6 +172,7 @@ section {
 
 .convocatoria-concurso {
   background-color: #e8e8e8;
+  min-height: 800px;
 }
 
 .convocatoria-programa {
@@ -201,9 +227,6 @@ section {
 
 /* Botones de servicios */
 
-.servicios {
-  margin-top: 20px;
-}
 
 .servicio {
   margin-bottom: 15px;
@@ -234,18 +257,19 @@ section {
 }
 
 .servicio2-item {
-  background-color: #bbbbbb;
+  background-color: #a6b1ca;
   padding: 15px;
   border-radius: 8px;
 }
 
 .servicio2-item img {
   flex-shrink: 0;
+  filter: invert(1);
 }
 
 .servicio2-item p {
   font-size: 1rem;
-  color: #353535;
+  color: white;
   font-weight: 600;
 }
 
@@ -299,6 +323,14 @@ section {
   max-width: 700px;
 }
 
+.insigna-portada {
+  justify-content: flex-start;
+  background-color: #e73861;
+  padding: 10px 50px 5px 0px;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
 
 /* seccion ejes pagina principal*/
 
@@ -326,7 +358,7 @@ section {
 }
 
 .ejes-titulo {
-  background-color: #353535;
+  background-color: #2f354a;
   margin: -16px;
   padding: 16px;
  
@@ -531,6 +563,9 @@ section {
     margin-left: -50px;
     max-width: 400px;
   }
+  .centrado {
+    margin-top: 0px
+  }
 }
 
 
@@ -543,7 +578,8 @@ section {
 
 @media screen and (max-width: 576px) {
   .hero {
-    padding: 25px 10px;
+    padding-left: 0px;
+    padding-bottom: 25px;
   
   }
   .direccion {
@@ -553,18 +589,21 @@ section {
   .direccion p {
     padding-bottom: 10px;
   }
+
+  .formacion {
+    padding: 10px;
+  }
   .servicio-item { /*botones pagina principal*/
     padding: 15px 10px;
   }
   .servicio-item img {
-    max-width: 20px;
+    max-width: 30px;
     flex-shrink: 0;
     filter: invert(1);
   }
   .redes a { /*redes de portada*/
     font-size: 20px;
     padding-right: 0px 10px 0px 0px;
-    color: #e73861;
   }
   .logo-dav {
     padding-left: 5px;
@@ -602,8 +641,17 @@ section {
     display: block;
     font-size: 2rem;
     font-weight: bold;
-    color: #222222;
+    color: white;
   }
+
+  .servicio {
+    margin-bottom: 8px;
+  }
+  .card-cash {
+    margin-left: 0px;
+    margin-bottom: 25px;
+  }
+  
   
   }
 

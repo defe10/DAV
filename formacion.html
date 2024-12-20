@@ -24,14 +24,14 @@
 
 <body>
   <!-- Barra de navegación -->
-  <nav class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark"> 
+  <nav class="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="light"> 
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">
-          <img src="img/Sec-Cultura-Negativo.png" width="250" alt="logo secretaria de cultura de salta">
+        <a class="navbar-brand" href="https://culturasalta.gov.ar" target="_blank" rel="noopener noreferrer">
+          <img src="img/SEC-DE-CULTURA-AZUL.png" width="250" alt="logo secretaria de cultura de salta">
         </a>
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -41,7 +41,7 @@
             <a class="nav-link" href="institucional.html">Institucional</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
               Gestión
             </a>
             <ul class="dropdown-menu">
@@ -61,119 +61,55 @@
   </nav>
 
 <!-- Sección Hero -->
-<section class="hero-inst d-flex align-items-center justify-content-center">
+<section class="hero-convocatorias d-flex align-items-center justify-content-center">
   <div class="container">
-    <div class="direccion">
+    <div class="formacion">
       <h1>Estudio 387</h1>
-      <h2>Programa de Formación Audiovisual</h2>
-      <p>Hemos creado <strong>ESTUDIO 387</strong>, un programa que apunta a fortalecer la producción audiovisual local y capacitar a los estudiantes avanzados y profesionales del sector para que adquieran conocimientos y herramientas específicas. <br><br>Con un enfoque en la excelencia, la iniciativa busca que los participantes logren una formación que les permita competir en mercados tanto locales como internacionales.</p>
+      <h2>Impulso al Desarrollo Audioviusal</h2>
+    </div>
+
+    <div class="foto-texto">
+      <div class="row justify-content-between">
+        <div class="col-sm-12 col-lg-5">
+          <img src="img/estudio387.png" alt="idea">
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <p>Hemos creado <strong>ESTUDIO 387</strong>, un programa que apunta a fortalecer la producción audiovisual local y capacitar a los estudiantes avanzados y profesionales del sector para que adquieran conocimientos y herramientas específicas. <br><br>Con un enfoque en la excelencia, la iniciativa busca que los participantes logren una formación que les permita competir en mercados tanto locales como internacionales..</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 
+
 <!-- convocatoria cursos -->
 
-<section class="hero-conv d-flex align-items-center justify-content-center" id="cursos">
+<section class="hero-conv d-flex align-items-center justify-content-center">
   <div class="container-fluid">
     <div class=" row insigna-estudio"></div>
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
           <h1>Cursos 2025</h1>
           <p>Conoce los concursos de <strong>ESTUDIO 387</strong>, diseñados para desarrollar y ampliar capacidades técnicas y creativas.</p>
         </div>
 
 
       <!-- Servicios -->
-      <div class="col-lg-5 col-sm-12 servicios">
-        <div class="row lg-2">
-          <div class="col-lg-5 col-sm-12 servicio">
-            <a href="#">
-              <div class="servicio2-item d-flex align-items-center">
-                <img class="icon me-3" src="img/iconos/play-btn-fill.svg" alt="tutoriales" width="30">
-                <p class="m-0">Tutoriales</p> 
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-5 col-sm-12 servicio">
-            <a href="mailto:audiovisuales@edusalta.gov.ar" target="_blank" rel="noopener noreferrer">
-              <div class="servicio2-item d-flex align-items-center">
-                <img class="icon me-3" src="img/iconos/info-circle.svg" alt="Registro" width="30">
-                <p class="m-0">Consultas</p>
-              </div>
-            </a>
-          </div>
+      <div class="col-lg-3 col-sm-12 servicios">
+        <div class="col-lg-12 col-sm-12 servicio">
+          <a href="cursos.html">
+            <div class="servicio2-item d-flex align-items-center">
+              <img class="icon me-3" src="img/iconos/play-btn-fill.svg" alt="tutoriales" width="30">
+              <p class="m-0">Cursos de formación</p> 
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<!-- Cursos -->
-
-<section class="convocatoria-concurso d-flex align-items-center justify-content-center">
-  <div class="idea cursos"> 
-    <div class="container">
-      <h2>Cursos</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-between">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="img/arte.png" class="card-img-top" alt="desarrollo">
-            <div class="card-body">
-              <h5 class="card-title">Dirección de arte</h5>
-              <p class="card-text">En este curso aprenderás a expresar un guion en imágenes, incorporando el manejo del color, los materiales, texturas y el diseño de la espacialidad, creando un concepto estético donde se cuenta la historia.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Categoría: <span class="resal">Concurso</span></li>
-              <li class="list-group-item">Convocatoria: <span class="resal">Cerrada</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="bases uno">Bases y condiciones</a>
-              <a href="#" class="bases1 dos">Inscripción</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="img/foto.png" class="card-img-top" alt="desarrollo">
-            <div class="card-body">
-              <h5 class="card-title">Dirección de <br>fotografía</h5>
-              <p class="card-text">En este curso aprenderás a dominar las técnicas esenciales de manejo de la luz y cámaras.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Categoría: <span class="resal">Concurso</span></li>
-              <li class="list-group-item">Convocatoria: <span class="resal">Cerrada</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="bases uno">Bases y condiciones</a>
-              <a href="#" class="bases1 dos">Inscripción</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="img/actuacion.png" class="card-img-top" alt="desarrollo">
-            <div class="card-body">
-              <h5 class="card-title">Actuación y dirección de escenas</h5>
-              <p class="card-text">Actuar, dirigir, filmar. Taller de actuación y dirección, ejercicios para la construcción de escenas cinematográficas.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Categoría: <span class="resal">Concurso</span></li>
-              <li class="list-group-item">Convocatoria: <span class="resal">Cerrada</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="bases uno">Bases y condiciones</a>
-              <a href="#" class="bases1 dos">Inscripción</a>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-  </div>
-</section>
 
 
 <!-- footer -->
