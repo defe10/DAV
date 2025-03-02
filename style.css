@@ -146,6 +146,10 @@
   margin-bottom: 20px;
 }
 
+.tutoriales {
+  padding: 40px;
+
+}
 
 /*Arcordeon secciones*/ 
 
@@ -454,7 +458,7 @@
 /* Convocatorias - idea */
 
 .list-group .resal  {
-  color: #e73861;
+  color: #366e98 ;
   font-weight: 500;
 
 }
