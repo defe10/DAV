@@ -20,7 +20,7 @@
 /* Sección Hero */
 
 .hero {
-  background-image: url(img/fondohero2.png);
+  background-image: url(img/fondohero2.jpg);
   background-repeat: no-repeat;
   background-size: cover; /* Escala la imagen para cubrir todo el elemento */
   padding: 0px 0px 0px 0px;
