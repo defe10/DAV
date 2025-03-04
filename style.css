@@ -104,7 +104,7 @@
 .formacion h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #353535;
+  color: #2f354a;
   margin-bottom: 0px;
 }
 
@@ -131,11 +131,25 @@
 
 .foto-texto { /*div encabezado de fomento*/
   padding: 10px 100px 50px 100px;
-  color: #353535;
+  color: #2f354a;
 }
 .foto-texto img {
   max-width: 500px;
 }
+
+.datos {
+  background-color: #2f354a;
+  font-size: 0.9rem;
+  color: white;
+  list-style-type: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.texto_concurso {
+  padding: 20px 0px 20px 0px;
+}
+
+
 
 .programas-cine {
   padding: 40px;
@@ -148,7 +162,6 @@
 
 .tutoriales {
   padding: 40px;
-
 }
 
 /*Arcordeon secciones*/ 
@@ -343,11 +356,11 @@
 }
 
 .card-body .card-title {
-  color:#353535
+  color:#2f354a
 }
 
 .card-body .card-text {
-  color:#353535
+  color:#2f354a
 }
 
 .card-body .btn {
@@ -476,7 +489,9 @@
 .list-group .negrita {
   font-weight: 500;
 } 
-
+.list-datos .negrita {
+  font-weight: 500;
+} 
 
 .uno {
   text-decoration: none;
@@ -536,6 +551,9 @@
   .accordion {
     margin: 10px 20px 50px 20px;
   } 
+  .formacion {
+    padding: 20px;
+  }
   }
 
 
@@ -575,6 +593,11 @@
   .centrado {
     margin-top: 0px
   }
+  .datos {
+    max-width: 450px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
 }
 
 
@@ -600,7 +623,7 @@
   }
 
   .formacion {
-    padding: 10px;
+    padding: 20px;
   }
   .servicio-item { /*botones pagina principal*/
     padding: 15px 10px;
@@ -660,9 +683,7 @@
     margin-left: 0px;
     margin-bottom: 25px;
   }
-  
-  
-  }
+}
 
 @media screen and (max-width: 480px) {
   .foto-texto img {
@@ -671,8 +692,14 @@
 .lead {
   display: block;
 }
-}
 
+.datos {
+  max-width: 400px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+}
 
 
 @media screen and (max-width: 405px)  {
