@@ -624,6 +624,10 @@
     padding-bottom: 10px;
   }
 
+  .formacion p {
+    padding-bottom: 10px;
+  } 
+
   .formacion {
     padding: 15px 0px 10px 20px;
   }
@@ -650,6 +654,10 @@
     font-size: 1rem;
   }
   .direccion h1 {
+    font-size: 2rem;
+  }
+
+  .formacion h1 {
     font-size: 2rem;
   }
 
