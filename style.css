@@ -263,6 +263,22 @@
   filter: invert(1);
 }
 
+
+.llamado1 {
+  color: #dc1ddc;
+  font-weight: 800;
+}
+
+.llamado2 {
+  color: #dbff3d;
+  font-weight: 800;
+}
+
+.llamado3 {
+  font-size: small;
+  
+}
+
 /*convocatorias de fomento y formacion*/
 
 .servicio-item p {
